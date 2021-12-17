@@ -1,5 +1,17 @@
 # Overview
 
+This is a new fork created by "Median E. Rawashdeh" to include contemporary methods to test the vulnarability of a wifi network.
+For obvious reasons I will not include methods to attack or pen-test enterprise networks (based on 802.1x) unless included in the pre-forked package.
+
+The list of added features will keep expanding, starting with the following:
+* PMKID Attack 
+* KRACK Attack
+* GPU support for bruteforce operations like Pixie Dust
+* General tweaks
+
+```
+Origin and reference to the origianl Reaver & Reaver t6x
+```
 **Reaver** implements a **brute force attack** against **Wifi Protected Setup** (WPS) registrar **PINs** in order to recover **WPA/WPA2 passphrases**, as described in [Brute forcing Wi-Fi Protected Setup When poor design meets poor implementation.](http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf) by **Stefan Viehböck**.  
 **Reaver** has been designed to be a robust and practical attack against **Wi-Fi Protected Setup (WPS)** registrar PINs in order to **recover WPA/WPA2 passphrases** and has been tested against a wide variety of access points and WPS implementations.  
 **Depending on the target's Access Point (AP)**, to recover the plain text WPA/WPA2 passphrase the **average** amount of time for the transitional **online brute force** method is **between 4-10 hours**. In practice, it will generally take half this time to guess the correct WPS pin and recover the passphrase.
@@ -44,11 +56,11 @@ You **must** already have Wiire's Pixiewps installed to perform a pixie dust att
 
 **Download**
 
-`git clone https://github.com/t6x/reaver-wps-fork-t6x`
+`git clone https://github.com/t6x/reaver-modernized`
 
 or
 
-`wget https://github.com/t6x/reaver-wps-fork-t6x/archive/master.zip && unzip master.zip`
+`wget https://github.com/t6x/reaver-modernized/archive/master.zip && unzip master.zip`
 
 **Locate the shell**
 
@@ -164,6 +176,9 @@ Notice that wash output can be piped into other commands. For more information s
 # Acknowledgements
 
 ## Contribution
+	
+Creater of Reaver Modernized "reaver-modernized": Median E. Rawashdeh 'MedianiTTo' 
+
 Creator of reaver-wps-fork-t6x "community edition": 
 `t6x`  
   
