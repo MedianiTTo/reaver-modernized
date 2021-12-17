@@ -56,11 +56,11 @@ You **must** already have Wiire's Pixiewps installed to perform a pixie dust att
 
 **Download**
 
-`git clone https://github.com/t6x/reaver-modernized`
+`git clone https://github.com:MedianiTTo/reaver-modernized.git`
 
 or
 
-`wget https://github.com/t6x/reaver-modernized/archive/master.zip && unzip master.zip`
+`wget https://github.com:MedianiTTo/reaver-modernized/archive/master.zip && unzip master.zip`
 
 **Locate the shell**
 
