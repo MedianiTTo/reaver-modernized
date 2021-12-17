@@ -64,7 +64,7 @@ or
 
 **Locate the shell**
 
-`cd reaver-wps-fork-t6x*`  
+`cd reaver-modernized*`  
 `cd src`  
 
 **Compile**
